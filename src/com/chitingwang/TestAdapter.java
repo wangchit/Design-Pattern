@@ -2,7 +2,7 @@ package com.chitingwang;
 import java.util.*;
 import com.chitingwang.adapter.CollectionCharacter;
 
-//This class will test whether the adapter class CollectionCharacter works will
+//This class will test whether the adapter class CollectionCharacter works well
 
 public class TestAdapter{	
     
