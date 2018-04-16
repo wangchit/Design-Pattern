@@ -8,7 +8,7 @@ public class TestAdapter{
     
     public static void main(String[] args) {
         
-        //The string input here will be converted to char and add to the CollectionCharacter list.
+        //The string input here will be converted to a char array and add to the CollectionCharacter list.
     	//See the constructor in the CollectionCharacter class
         
     	Collection<Character> collectionCharacter = new CollectionCharacter("abcdefg"); 
