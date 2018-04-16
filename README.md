@@ -14,9 +14,9 @@ The class Vector has already implemented the methods in the interface Collection
 
 
 - If the class CollectionCharater does not extend class Vector, the methods in the interfaces will be implemented in the CollectionCharacter. The implementation will possibly start from: 
-1. converting the String input into char array, 
-2. converting the String input into ArrayList or  <br />
-3. using String type  <br />
+o converting the String input into char array, <br /> 
+o converting the String input into ArrayList or  <br />
+o using String type  <br />
  
 
   
