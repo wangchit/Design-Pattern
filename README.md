@@ -10,10 +10,10 @@ o The interface Collection<Character> is the target interface. <br />
 o Both the adapter class and the ArrayList class implements the target interface.  <br /><br />  
   
 - Note that in this project, the class CollectionCharacter extends class Vector and implements interface Collection. <br />
-The class Vector has already implemented the methods in the interface Collection, so it is not neccessary to override the method in the class CollectionCharacter.<br /><br />This also means that the methods from the Vector can be used. For example, the iteration in the main class uses the interation method in the Vector class. <br /><br />  
+The Vector has already implemented the methods in the interface Collection, so it is not neccessary to implement the overriden methods in the CollectionCharacter.<br /><br />This also means that the methods from the Vector can be used. For example, the iteration in the main i in the test class uses the interation method from the Vector. <br /><br />  
 
 
-- If the class CollectionCharater does not extend class Vector, the methods in the interfaces will be implemented in the CollectionCharacter. The implementation will possibly start from: <br />
+- If the class CollectionCharater does not extend Vector, the methods in the interfaces will be implemented in the CollectionCharacter. The implementation will possibly start from: <br />
 o converting the String input into char array, <br /> 
 o converting the String input into ArrayList or  <br />
 o using String type  <br />
