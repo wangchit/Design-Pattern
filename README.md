@@ -7,7 +7,7 @@ o Class CollectionCharacter is the adapter will convert the String input into a 
 o The String input is the client.   
 o The ArrayList class is the adaptee. <br /> 
 o The target interface, Collection<Character>. <br /> 
-o Both the adapter class and the ArrayList class implements the target interface.  <br /> 
+o Both the adapter class and the ArrayList class implements the target interface.  <br /><br />  
   
 - Note that in this project, the class CollectionCharacter extends class Vector and implements interface Collection. <br />
 The class Vector has already implemented the methods in the interface Collection, so it is not neccessary to override the method in the class CollectionCharacter.<br /><br />This also means that the methods from the Vector can be used. For example, the iteration in the main class uses the interation method in the Vector class. <br /><br />  
