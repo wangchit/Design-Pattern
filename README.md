@@ -5,8 +5,8 @@
 - The roles in the adapter design pattern are an adapter, an adaptee, a target interface and a client. <br />
 o Class CollectionCharacter is the adapter will convert the String input into a Vector<Character>. <br />
 o The String input is the client.   
-o The ArrayList class is the adaptee. <br /> 
-o The target interface, Collection<Character>. <br /> 
+o The class ArrayList is the adaptee. <br /> 
+o The interface Collection<Character> is the target interface. <br /> 
 o Both the adapter class and the ArrayList class implements the target interface.  <br /><br />  
   
 - Note that in this project, the class CollectionCharacter extends class Vector and implements interface Collection. <br />
