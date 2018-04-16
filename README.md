@@ -1,6 +1,6 @@
 # Design-Pattern-Adapter
 
-- The goal is to convert the String input into an output like an ArrayList<Character> using adapter design pattern.<br />
+- The goal is to convert the String input into an output like a List of Character using adapter design pattern.<br />
 
 - The roles in the adapter design pattern are an adapter, an adaptee, a target interface and a client. <br />
 o Class CollectionCharacter is the adapter will convert the String input into a Vector<Character>. <br />
