@@ -8,10 +8,6 @@ public class CollectionCharacter extends Vector<Character> implements Collection
 	
 	public CollectionCharacter(String a) {
 		for(char c : a.toCharArray())
-			add(c); //or this.add(c)
-		
-		//CollectionCharactor or Vector just act like a list. 
-		//So it will add c into the CollectionCharactor list.
+			add(c); 
 	}
-	
 }
