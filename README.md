@@ -19,7 +19,7 @@ The Vector has already implemented the methods in the interface Collection, so i
 - If the class CollectionCharater does not extend Vector, the methods in the interfaces will be implemented in the CollectionCharacter. The implementation will possibly start from: <br />
 o converting the String input into char array, e.g., String.toCharArray(), <br /> 
 o converting the String input into ArrayList, e.g., List<String> newList = new ArrayList<String>(Arrays.asList(a.split("")) or  <br />
-o using String type  <br />
+o using String type  <br /> 
  
 
   
